@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "daisyui": "^2.51.6",
+    "echarts": "^5.4.2",
     "element-plus": "^2.3.4",
     "lodash": "^4.17.21",
     "pinia": "^2.0.36",

@@ -1,5 +1,8 @@
 <script>
-import {defineComponent} from 'vue'
+import {defineComponent, ref} from 'vue'
+import { defineEmits, defineProps } from "vue";
+
+
 
 defineProps({
   title: {
@@ -15,14 +18,17 @@ export default defineComponent({
 </script>
 
 <template>
+
   <el-card class="box-card">
     <template #header>
       <div class="card-header">
         <span>{{ title }}</span>
-        <el-button class="button" text>{{ operateType }}</el-button>
+
       </div>
     </template>
-    <div v-for="o in 4" :key="o" class="text item">{{ 'List item ' + o }}</div>
+    <slot></slot>
+     <button class="btn btn-success w-2">{{ 按钮 }}</button>
+    {{operateType}}
   </el-card>
 </template>
 
