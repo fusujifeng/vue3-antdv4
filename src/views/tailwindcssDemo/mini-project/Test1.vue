@@ -1,6 +1,6 @@
 html
 <template>
-  <div class="flex justify-center items-center h-screen bg-zinc-700">
+  <div class="flex justify-center items-center h-screen bg-zinc-700 ">
    <div class="flex flex-col md:flex-row transform duration-300 p-2 mx-6 bg-zinc-800 rounded-2xl">
     <img class="object-fit h-80 md:h-64 hover:scale-105 rounded-xl" src="../../../assets/mini-projects/email-subscribe/images/image.jpg" alt="">
    <div class="p-6 md:p-12 text-white">
@@ -11,7 +11,7 @@ html
          <input type="text" placeholder="Enter your email address"
                 class="text-xs p-4 px-20 md:px-6 rounded-xl  bg-zinc-800 border border-zinc-600
 placeholder:text-center placeholder:md:text-left"/>
-          <button class=" px-28 md:px-6 border border-zinc-600 py-3 bg-green-400 rounded-md hover:bg-green-900 duration-500">subrcibe</button>
+          <button class=" px-28 md:px-6 border border-zinc-600 py-3 bg-green-400  rounded-md hover:bg-green-900 duration-500 md:bg-red-600  lg:bg-yellow-300">subrcibe</button>
        </div>
    </div>
    </div>
