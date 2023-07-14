@@ -5,6 +5,7 @@ import Home from "@/views/Home/index.vue"
 import Category from "@/views/Category/index.vue"
 import Test1 from "@/views/tailwindcssDemo/mini-project/Test1.vue";
 import Test2 from "@/views/tailwindcssDemo/mini-project/Test2.vue";
+import Test3 from "@/views/tailwindcssDemo/mini-project/Test3.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,10 @@ const router = createRouter({
     {
       path: '/test2',
       component: Test2
+    },
+    {
+      path: '/test3',
+      component: Test3
     },
   ]
 })
